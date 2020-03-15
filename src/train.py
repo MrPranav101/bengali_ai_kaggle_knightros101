@@ -8,7 +8,7 @@ import sklearn.metrics
 from model_dispatcher import MODEL_DISPATCHER
 from dataset import BengaliDatasetTrain
 from tqdm import tqdm
-from pytorchtools import EarlyStopping
+from early_stopping.pytorchtools import EarlyStopping
 
 
 DEVICE = "cuda"
